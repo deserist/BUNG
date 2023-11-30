@@ -1,0 +1,16 @@
+/* Genel stil ayarları */
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  max-width: 350px; /* Resimlerin maksimum genişliği */
+  max-height: 400px; /* Resimlerin maksimum yüksekliği */
+  margin: 10px; /* Resimler arasındaki boşluk */
+}
